@@ -1,0 +1,55 @@
+aiofiles==24.1.0
+    # via -r .requirements/prod.in
+alembic==1.16.2
+    # via -r .requirements/prod.in
+annotated-types==0.7.0
+    # via pydantic
+anyio==4.9.0
+    # via starlette
+asyncpg==0.30.0
+    # via -r .requirements/prod.in
+click==8.2.1
+    # via
+    #   -r .requirements/prod.in
+    #   uvicorn
+fastapi==0.115.13
+    # via -r .requirements/prod.in
+greenlet==3.2.3
+    # via sqlalchemy
+h11==0.16.0
+    # via uvicorn
+idna==3.10
+    # via anyio
+mako==1.3.10
+    # via alembic
+markupsafe==3.0.2
+    # via mako
+pydantic==2.11.7
+    # via
+    #   -r .requirements/prod.in
+    #   fastapi
+pydantic-core==2.33.2
+    # via pydantic
+python-multipart==0.0.20
+    # via -r .requirements/prod.in
+sniffio==1.3.1
+    # via anyio
+sqlalchemy==2.0.41
+    # via
+    #   -r .requirements/prod.in
+    #   alembic
+starlette==0.46.2
+    # via fastapi
+typing-extensions==4.14.0
+    # via
+    #   alembic
+    #   anyio
+    #   fastapi
+    #   pydantic
+    #   pydantic-core
+    #   sqlalchemy
+    #   typing-inspection
+typing-inspection==0.4.1
+    # via pydantic
+uvicorn==0.34.3
+    # via -r .requirements/prod.in

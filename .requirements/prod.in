@@ -1,0 +1,9 @@
+aiofiles
+alembic
+asyncpg
+click
+fastapi
+pydantic>2
+python-multipart
+sqlalchemy>2
+uvicorn

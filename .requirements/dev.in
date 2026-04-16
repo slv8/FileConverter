@@ -1,0 +1,4 @@
+Flake8-pyproject
+black
+flake8
+isort
